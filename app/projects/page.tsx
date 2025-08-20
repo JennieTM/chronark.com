@@ -12,7 +12,7 @@ const redis = Redis.fromEnv();
 export const revalidate = 60;
 export default async function ProjectsPage() {
   const views = (
-    await redis.mget<number[]>(
+   await redis.mget<number[]>(
       ...allProjects.map((p) => ["pageviews", "projects", p.slug].join(":")),
     )
   ).reduce((acc, v, i) => {
