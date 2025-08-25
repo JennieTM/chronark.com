@@ -11,14 +11,14 @@ export const metadata: Metadata = {
   },
   description: "Web Designer page for contact",
   openGraph: {
-    title: "chronark.com",
+    title: "ContactPage",
     description:
       "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
+    url: "https://contactpage-delta.vercel.app/",
     siteName: "chronark.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "",
         width: 1920,
         height: 1080,
       },
