@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "Co-founder of unkey.dev and founder of planetfall.io",
     url: "https://contactpage-delta.vercel.app/",
-    siteName: "chronark.com",
+    siteName: "ContactPage",
     images: [
       {
         url: "",
